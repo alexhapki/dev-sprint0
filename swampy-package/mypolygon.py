@@ -1,4 +1,4 @@
-from TurtleWorld import *
+from swampy.TurtleWorld import *
 
 world = TurtleWorld()
 bob = Turtle()
@@ -80,5 +80,11 @@ for i in range(2):
 
 
 wait_for_user()
+
+
+
+
+
+
 
 

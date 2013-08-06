@@ -1,6 +1,6 @@
 # Text answers from Week 0
 
-# Name:
+# Name: Alex Choi
 
 
 
@@ -12,23 +12,33 @@ Explain what each of the following lines does. Use the terminology you learned f
 	wait_for_user()
 
 Answer:
-
-
-
-
+Line 1 - Imports everything from the TurtleWorld module in the Swampy package.
+Line 2 - Assigns the TurtleWorld module to "world".
+Line 3 - Assigns a turtle to "bob".
+Line 4 - Instructs TurtleWorld to wait for the user to do something.
 
 
 These questions pertain to the program you wrote in Week0.
 
 -- What are the arguments of polygon()?  What type is each argument?
 Answer:
+The arguments are
+turtleName - string
+length - float
+n - int
 
 -- What two turtle functions did you use to draw the sides of the polygon?
 Answer:
+fd()
+lt()
 
 -- What are the arguments for polyline?  What type is each argument?
 Answer:
-
+The arguments are
+turtleName - string
+length - float
+n - int
+theta - float
 
 
 
@@ -37,9 +47,21 @@ Suppose you wrote a function, center_circle(), that draws a circle of a given ra
 
 -- What turtle functions would you use to move the turtle from the center to the edge of the circle and get ready to call the original circle() function?
 Answer:
+pu()
+fd()
+pd()
 
 -- Suppose the interface of this function requires the turtle to end up in the same place it started, facing in the same direction it started.
 Answer:
+pu()
+lt()
+fd()
+lt()
+lt()
 
 -- What is this type of requirement called?
 Answer:
+Postconditions
+
+
+
