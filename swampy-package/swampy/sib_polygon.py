@@ -28,9 +28,9 @@ def polygon(turtleName, length, n):
 from math import pi
 def circle(turtleName, r):
 	circumference = 2 * r * pi
-	n = 60						#Anything above 60 for n would draw an incomplete circle. Not quite sure why...
+	n = 100						#Anything above 60 for n would draw an incomplete circle. Not quite sure why...
 	length = circumference/n
-	theta = 360/n
+	theta = 360.0/n
 	generalShape(turtleName, length, n, theta)
 
 #This function defines an arc with the turtle's name, radius of circle, and theta as the fraction of the circle to draw as parameters.
@@ -44,10 +44,7 @@ def arc(turtleName, r, theta):
 
 
 #This is where I tested out all my functions.
-square(bob, 20)
-polygon(bob, 50, 6)
 circle(bob, 30)
-arc(bob, 40, 180)
 
 
 
